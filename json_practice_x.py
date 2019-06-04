@@ -36,7 +36,7 @@ data = json.loads(people_string)
 for person in data['people']:
     del person['phone']
 
-new_string = json.dumps(data)
+new_string = json.dumps(data,indent=2)
 print(new_string)
 
 
