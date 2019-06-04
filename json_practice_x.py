@@ -10,7 +10,7 @@ people_string = '''
          {
         "name":"wandie innocent",
         "phone":"0706382817",
-        "email":["wandieinnocent@gmail.com","kavumawena@gmail.com"],
+        "email":["wandieinnoc@gmail.com","kavumawena@gmail.com"],
          "has_licence": false
         },
         
