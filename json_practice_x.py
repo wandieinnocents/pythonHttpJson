@@ -15,7 +15,7 @@ people_string = '''
         },
         
         {
-        "name":"Obwot Solomon",
+        "name":"Obwot Solon",
         "phone":"0788992222",
         "email":["solo@gmail.com","juliusrano@gmail.com"],
          "has_licence": true
