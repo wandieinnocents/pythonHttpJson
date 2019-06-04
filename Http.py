@@ -1,3 +1,7 @@
+
+
+#working module for json data consumption
+
 import urllib.request,json
 
 
@@ -13,7 +17,12 @@ def main():
     #json data format
     jsonDataFormat = json.loads(data.decode("utf-8"))
 
-    print(jsonDataFormat [0]["employee_name"],[1]["id"] )
+    #this is the only varying code the rest works
+    #to print data use this
+    #print(json.dumps(jsonDataFormat))
+
+    #or use print(jsonDataFormat)
+    print(jsonDataFormat [0]["employee_name"] )
 
 
 if __name__ == '__main__':main()
