@@ -34,4 +34,9 @@ data = json.loads(people_string)
 #look through peole and access them individualy
 
 for person in data['people']:
-    print(person)
+    del person['phone']
+
+new_string = json.dumps(data)
+print(new_string)
+
+
