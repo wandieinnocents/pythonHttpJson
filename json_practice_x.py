@@ -31,5 +31,7 @@ people_string = '''
 
 data = json.loads(people_string)
 
-print(data)
-print(type(data))
+#look through peole and access them individualy
+
+for person in data['people']:
+    print(person)
